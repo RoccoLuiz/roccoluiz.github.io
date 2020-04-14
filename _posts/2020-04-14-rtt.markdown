@@ -47,3 +47,90 @@ It is very easy to see why this relationship is true by using dimensional analys
 \\[ B = B \\]
 
 ---
+
+Now we can analyze the relationship between the system and the control volume.
+Let there be a control volume at some time t of a certain size and let that control volume contain a system that fills the volume:
+
+![alt text](https://github.com/RoccoLuiz/roccoluiz.github.io/blob/master/_pictures/cvandsys.png "Control volume and system coincide")
+
+If we know increment the time t by some small dt:
+
+![alt text](https://github.com/RoccoLuiz/roccoluiz.github.io/blob/master/_pictures/initsepcvandsys.png "The control volume is in red whilst the dotted shape is the system")
+
+In this diagram we see that the system (dashed) has moved out of the system and has changed shape (expanded) whilst the control volume and control surface (red) has maintained a fixed value.
+
+Looking at the previous picture we notice two special zones which we label:
+
+![alt text](https://github.com/RoccoLuiz/roccoluiz.github.io/blob/master/_pictures/sepcvandsys.png "Special regions labelled")
+
+I is a region of volume within the control volume which is being replaced by an extensive property that is not part of the system. Whilst II is a region of the system that is no longer within the control volume.
+
+From these diagrams we can now write some simple descriptive equations:
+
+* At time t:
+The system and control volume coincide
+
+\\[ B_{sys} (t) = B_{CV} (t) \\]
+
+* At time t + dt:
+The relationship changes as the extensive properties enter and leave the control volume
+
+\\[ B_{sys}(t + dt) = B_{CV}(t + dt) - B_{I}(t + dt) + B_{II}(t + dt) \\]
+
+Subtracting the equation at time t from the equation at time t + dt gives:
+
+\\[ B_{sys}(t + dt) - B_{sys}(t) = B_{CV}(t + dt) - B_{CV}(t) - B_{I}(t + dt) + B_{II}(t + dt) \\]
+
+If we then divide by dt we get:
+
+\\[ \frac{B_{sys}(t + dt) - B_{sys}(t)}{dt} = \frac{B_{CV}(t + dt) - B_{CV}(t) - B_{I}(t + dt) + B_{II}(t + dt)}{dt} \\]
+
+Taking the limit of dt to zero then gives:
+
+\\[ \frac{dB_{sys}}{dt} = \frac{\partialB_{CV}}{\partialt} - \frac{dB_{I}}{dt} + \frac{dB_{II}}{dt} \\]
+
+If we let I be the inflow region and let II be the outflow region and use time-derivative dot notation (Newton's notation) we can rewrite the previous equation as:
+
+\\[ \frac{dB_{sys}}{dt} = \frac{\partialB_{CV}}{\partialt} - \dotB_{in} + \dotB_{out} \\]
+
+This is Reynold's Transport Theorem.
+
+---
+
+An important thing to remember is that in fluid mechanics the flow of a fluid is often measured or written in terms of the mass flow rate (kg per second). This can be generalized to an extensive property flow rate (B per second).
+
+Knowing this the previous equation can be written in this way like so:
+
+\\[ \frac{dB_{sys}}{dt} = \frac{\partialB_{CV}}{\partialt} - \rho \ A_{I} \ \vec{V}_{I} \ b_{i} + \rho \ A_{II} \ \vec{V}_{II} \ b_{II} \\]
+
+Where rho is the density, V is the velocity and b is the intensive version of B. Again, using dimensional analysis will show that each B term will have the units B per second.
+
+---
+
+Now we will generalize Reynold's Transport Theorem. Let there be a curved control surface on which there is a small region of area dA:
+
+![alt text](https://github.com/RoccoLuiz/roccoluiz.github.io/blob/master/_pictures/vectorsonplane.png "Control surface with vectors")
+
+Looking at this image we have two vectors. Vector n is the surface normal (perpendicular) vector with magnitude one whilst V is the velocity vector. Why create a surface like this? This surface type and vectors will allow us to define the extensive inflow and outflow functions. How? By using the dot product. The dot product will easily allow us to define the direction of the flow. 
+
+If the flow is parallel to the normal vector (or perpendicular to the surface) and in the same direction we see:
+
+\\[ \hat{n} \cdot \vec{V} = 1 \\]
+
+If the flow is parallel to the normal vector (or perpendicular to the surface) but in the opposite direction we see:
+
+\\[ \hat{n} \cdot \vec{V} = -1 \\]
+
+If the flow is perpendicular to the normal vector (or parallel to the surface) we see:
+
+\\[ \hat{n} \cdot \vec{V} = 0 \\]
+
+So, by using the dot product we only need to use one equation for the inlets and outlets across the area of the whole surface:
+
+\\[ \dot{B} = \int_{CS} \ \rho \ b \ \hat{n} \cdot \vec{V} \ dA  \\]
+
+Once more, using dimensional analysis will result in the correct units.
+
+So, now we write the generalized Reynold's Transport Theorem:
+
+\\[ \frac{dB_{sys}}{dt} = \frac{\partial}{\partial{t}} \ \int_{sys} \ \rho \ b \ d\overline{V} + \int_{CS} \ \rho \ b \ \hat{n} \cdot \vec{V} \ dA \\]
