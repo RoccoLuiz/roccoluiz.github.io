@@ -39,7 +39,7 @@ An important relationship between extensive and intensive properties is:
 
 (The V with a tilde here is the volume not velocity)
 
-It is very easy to shwo why this relationship is true by using dimensional analysis:
+It is very easy to see why this relationship is true by using dimensional analysis:
 
 \\[ B = \int{(\frac{kg}{m^3}) \ (\frac{B}{kg}) \ d\tilde{V}} \\]
 \\[ B = \int{(\frac{B}{m^3}) \ d\tilde{V}} \\]
