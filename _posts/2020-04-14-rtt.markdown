@@ -35,7 +35,7 @@ Lets start by describing the system's properties:
 
 An important relationship between extensive and intensive properties is:
 
-\\[ B = \int{\rho \ b \ d\ltilde{V}} \\]
+\\[ B = \int{\rho \ b \ d\tilde{V}} \\]
 
 (The V with a tilde here is the volume not velocity)
 
