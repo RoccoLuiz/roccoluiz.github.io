@@ -1,9 +1,13 @@
 links:
-- title: Writing
+- title: Musings
   url: /
-- title: About
-  url: /about
+- title: Taleb
+  url: /taleb
+- title: Business
+  url: /business
+- title: Humanities
+  url: /humanities
 - title: Search
   url: /search
-- title: Rss
-  url: /atom.xml
+- title: About
+  url: /about
