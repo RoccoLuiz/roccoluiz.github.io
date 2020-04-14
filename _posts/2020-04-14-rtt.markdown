@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Reynold's Transport Theorem
+title: Reynolds Transport Theorem
 ---
 
-Reynold's Transport Theorem is an interesting theorem used in thermodynamics, fluid dynamics and other similar fields to relate the dynamic viewpoints of Lagrange and Euler. The viewpoints are essentially:
+The Reynolds Transport Theorem is an interesting theorem used in thermodynamics, fluid dynamics and other similar fields to relate the dynamic viewpoints of Lagrange and Euler. The viewpoints are essentially:
 
 * Lagrange:
 
@@ -22,7 +22,7 @@ but
 
 \\[F_{CV} \neq m_{CV} \ a_{CV} \\]
 
-Reynold's Transport Theorem allows us to relate these two perspectives.
+The Reynolds Transport Theorem allows us to relate these two perspectives.
 
 ---
 
@@ -95,8 +95,6 @@ If we let I be the inflow region and let II be the outflow region and use time-d
 
 \\[ \frac{dB_{sys}}{dt} = \frac{\partial{B_{CV}}}{\partial{t}} - \dot{B_{in}} + \dot{B_{out}} \\]
 
-This is Reynold's Transport Theorem.
-
 ---
 
 An important thing to remember is that in fluid mechanics the flow of a fluid is often measured or written in terms of the mass flow rate (kg per second). This can be generalized to an extensive property flow rate (B per second).
@@ -109,7 +107,7 @@ Where rho is the density, V is the velocity and b is the intensive version of B.
 
 ---
 
-Now we will generalize Reynold's Transport Theorem. 
+Now we will generalize the equation we got. 
 Let there be a curved control surface on which there is a small region of area dA:
 
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/vectorsonplane.png">
@@ -134,6 +132,6 @@ So, by using the dot product we only need to use one equation for the inlets and
 
 Once more, using dimensional analysis will result in the correct units.
 
-So, now we write the generalized Reynold's Transport Theorem:
+So, now we write the Reynolds Transport Theorem:
 
 \\[ \frac{dB_{sys}}{dt} = \frac{\partial}{\partial{t}} \ \int_{sys} \ \rho \ b \ d\overline{V} + \int_{CS} \ \rho \ b \ \hat{n} \cdot \vec{V} \ dA \\]
