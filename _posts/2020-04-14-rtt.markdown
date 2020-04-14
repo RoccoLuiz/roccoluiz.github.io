@@ -51,25 +51,17 @@ It is very easy to see why this relationship is true by using dimensional analys
 Now we can analyze the relationship between the system and the control volume.
 Let there be a control volume at some time t of a certain size and let that control volume contain a system that fills the volume:
 
-![cvandsys](https://github.com/RoccoLuiz/roccoluiz.github.io/blob/master/pictures/cvandsys.png "Control volume and system coincide")
-
-![cvandsys](pictures/cvandsys.png)
-
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/cvandsys.png">
 
 If we know increment the time t by some small dt:
 
-![initsepcvandsys](https://github.com/RoccoLuiz/roccoluiz.github.io/blob/master/pictures/initsepcvandsys.png "The control volume is in red whilst the dotted shape is the system")
-
-![initsepcvandsys](pictures/initsepcvandsys.png)
+<img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/initsepcvandsys.png">
 
 In this diagram we see that the system (dashed) has moved out of the system and has changed shape (expanded) whilst the control volume and control surface (red) has maintained a fixed value.
 
 Looking at the previous picture we notice two special zones which we label:
 
-![sepcvandsys](https://github.com/RoccoLuiz/roccoluiz.github.io/blob/master/pictures/sepcvandsys.png "Special regions labelled")
-
-![sepcvandsys](pictures/sepcvandsys.png)
+<img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/sepcvandsys.png">
 
 I is a region of volume within the control volume which is being replaced by an extensive property that is not part of the system. Whilst II is a region of the system that is no longer within the control volume.
 
@@ -117,9 +109,7 @@ Where rho is the density, V is the velocity and b is the intensive version of B.
 
 Now we will generalize Reynold's Transport Theorem. Let there be a curved control surface on which there is a small region of area dA:
 
-![vectorsonplane](https://github.com/RoccoLuiz/roccoluiz.github.io/blob/master/pictures/vectorsonplane.png "Control surface with vectors")
-
-![vectorsonplane](pictures/vectorsonplane.png)
+<img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/vectorsonplane.png">
 
 Looking at this image we have two vectors. Vector n is the surface normal (perpendicular) vector with magnitude one whilst V is the velocity vector. Why create a surface like this? This surface type and vectors will allow us to define the extensive inflow and outflow functions. How? By using the dot product. The dot product will easily allow us to define the direction of the flow. 
 
