@@ -55,6 +55,8 @@ Let there be a control volume at some time t of a certain size and let that cont
 
 ![cvandsys](pictures/cvandsys.png)
 
+<img src="https://github.com/RoccoLuiz/roccoluiz.github.io/images/cvandsys.png" style="display: block; margin: auto;" />
+
 If we know increment the time t by some small dt:
 
 ![initsepcvandsys](https://github.com/RoccoLuiz/roccoluiz.github.io/blob/master/pictures/initsepcvandsys.png "The control volume is in red whilst the dotted shape is the system")
@@ -107,7 +109,7 @@ An important thing to remember is that in fluid mechanics the flow of a fluid is
 
 Knowing this the previous equation can be written in this way like so:
 
-\\[ \frac{dB_{sys}}{dt} = \frac{\partial{B_{CV}}}{\partial{t}} - \rho \ A_{I} \ \vec{V_{I}} \ b_{i} + \rho \ A_{II} \ \vec{V_{II}} \ b_{II} \\]
+\\[ \frac{dB_{sys}}{dt} = \frac{\partial{B_{CV}}}{\partial{t}} - \rho \ A_{I} \ \vec{V_{I}} \ b_{I} + \rho \ A_{II} \ \vec{V_{II}} \ b_{II} \\]
 
 Where rho is the density, V is the velocity and b is the intensive version of B. Again, using dimensional analysis will show that each B term will have the units B per second.
 
