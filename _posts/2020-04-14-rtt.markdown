@@ -53,7 +53,7 @@ Let there be a control volume at some time t of a certain size and let that cont
 
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/cvandsys.png">
 
-If we know increment the time t by some small dt:
+If we increment the time t by some small dt:
 
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/initsepcvandsys.png">
 
@@ -91,7 +91,7 @@ Taking the limit of dt to zero then gives:
 
 If we let I be the inflow region and let II be the outflow region and use time-derivative dot notation (Newton's notation) we can rewrite the previous equation as:
 
-\\[ \frac{dB_{sys}}{dt} = \frac{\partial{B_{CV}}}{\partial{t}} - \dot{B_{in}} + \dot{B_{out}} \\]
+\\[ \frac{dB_{sys}}{dt} = \frac{\partial{B_{CV}}}{\partial{t}} - \dot{B}_{in} + \dot{B}_{out}} \\]
 
 This is Reynold's Transport Theorem.
 
@@ -99,7 +99,7 @@ This is Reynold's Transport Theorem.
 
 An important thing to remember is that in fluid mechanics the flow of a fluid is often measured or written in terms of the mass flow rate (kg per second). This can be generalized to an extensive property flow rate (B per second).
 
-Knowing this the previous equation can be written in this way like so:
+Knowing this the previous equation can be written like so:
 
 \\[ \frac{dB_{sys}}{dt} = \frac{\partial{B_{CV}}}{\partial{t}} - \rho \ A_{I} \ \vec{V_{I}} \ b_{I} + \rho \ A_{II} \ \vec{V_{II}} \ b_{II} \\]
 
@@ -107,7 +107,8 @@ Where rho is the density, V is the velocity and b is the intensive version of B.
 
 ---
 
-Now we will generalize Reynold's Transport Theorem. Let there be a curved control surface on which there is a small region of area dA:
+Now we will generalize Reynold's Transport Theorem. 
+Let there be a curved control surface on which there is a small region of area dA:
 
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/vectorsonplane.png">
 
