@@ -26,6 +26,8 @@ Reynold's Transport Theorem allows us to relate these two perspectives.
 
 ---
 
+The presentation I give here is not very mathematically in-depth or rigorous at all, it's just a nice heuristic derivation because I couldn't be bothered.
+
 Lets start by describing the system's properties:
 
 * Let B be any extensive property like mass, momentum, volume, energy, etc
