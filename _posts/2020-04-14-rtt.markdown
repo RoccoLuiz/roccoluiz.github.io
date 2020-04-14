@@ -35,7 +35,7 @@ Lets start by describing the system's properties:
 
 An important relationship between extensive and intensive properties is:
 
-\\[ B_{sys} = \int_{sys} \ \rho \ b \ d\overline{v}}  \\]
+\\[ B_{sys} = \int_{sys} \ \rho \ b \ d\overline{v}  \\]
 
 (The Vbar here is the volume not velocity)
 
