@@ -55,7 +55,7 @@ Let there be a control volume at some time t of a certain size and let that cont
 
 ![cvandsys](pictures/cvandsys.png)
 
-<img src="https://github.com/RoccoLuiz/roccoluiz.github.io/images/cvandsys.png" style="display: block; margin: auto;" />
+<img src="https://github.com/RoccoLuiz/roccoluiz.github.io/images/cvandsys.png">
 
 If we know increment the time t by some small dt:
 
