@@ -91,7 +91,7 @@ Taking the limit of dt to zero then gives:
 
 If we let I be the inflow region and let II be the outflow region and use time-derivative dot notation (Newton's notation) we can rewrite the previous equation as:
 
-\\[ \frac{dB_{sys}}{dt} = \frac{\partial{B_{CV}}}{\partial{t}} - \dot{B}_{in} + \dot{B}_{out}} \\]
+\\[ \frac{dB_{sys}}{dt} = \frac{\partial{B_{CV}}}{\partial{t}} - \dot{B_{in}} + \dot{B_{out}}} \\]
 
 This is Reynold's Transport Theorem.
 
