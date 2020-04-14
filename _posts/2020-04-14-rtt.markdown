@@ -35,14 +35,14 @@ Lets start by describing the system's properties:
 
 An important relationship between extensive and intensive properties is:
 
-\\[ B_{sys} = \int_{sys}{\rho \ b \ d\bar{V}} \\]
+\\[ B_{sys} = \int_{sys} \ \rho \ b \ d\overline{V}}  \\]
 
 (The Vbar here is the volume not velocity)
 
 It is very easy to see why this relationship is true by using dimensional analysis:
 
-\\[ B = \int{(\frac{kg}{m^3}) \ (\frac{B}{kg}) \ d\bar{V}} \\]
-\\[ B = \int{(\frac{B}{m^3}) \ d\bar{V}} \\]
+\\[ B = \int(\frac{kg}{m^3}) \ (\frac{B}{kg}) \ d\overline{V} \\]
+\\[ B = \int(\frac{B}{m^3}) \ d\overline{V} \\]
 \\[ B = (\frac{B}{m^3}) \ (m^3) \\]
 \\[ B = B \\]
 
