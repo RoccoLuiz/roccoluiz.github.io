@@ -26,7 +26,7 @@ The Reynolds Transport Theorem allows us to relate these two perspectives.
 
 ---
 
-The presentation I give here is not very mathematically in-depth or rigorous at all, it's just a nice heuristic derivation because I couldn't be bothered.
+The presentation I give here is not very mathematically in-depth or rigorous at all, it's just a nice heuristic derivation. The reason for the lack of rigour is that the result given here is useful in most engineering applications and that the proof for the more rigorous version is boring. I might post the more rigorous version sometime in the future.
 
 Lets start by describing the system's properties:
 
