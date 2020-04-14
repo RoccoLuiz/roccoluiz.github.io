@@ -5,19 +5,19 @@ title: Reynold's Transport Theorem
 
 Reynold's Transport Theorem is an interesting theorem used in thermodynamics, fluid dynamics and other similar fields to relate the dynamic viewpoints of Lagrange and Euler. The viewpoints are essentially:
 
-..* Lagrange:
+* Lagrange:
 ......The Lagrangian perspective focuses on following and describing the behaviours of discrete packets of mass. These packets are called the 'system' and they are allowed to change shape and size.
 
 ..* Euler:
-......The Eulerian perspective focuses on a very specific region of interest. We call the volume within the region of interest the 'control volume' or 'CV' and the boundary of the volume the 'control surface' or 'CS'. This viewpoint is very useful in engineering. For example, if we're interested in the behaviour of a pump, we want to focus on the pump itself not the fluid within the pump.
+...The Eulerian perspective focuses on a very specific region of interest. We call the volume within the region of interest the 'control volume' or 'CV' and the boundary of the volume the 'control surface' or 'CS'. This viewpoint is very useful in engineering. For example, if we're interested in the behaviour of a pump, we want to focus on the pump itself not the fluid within the pump.
 
 So, now we have a descriptive problem. Say we want to describe a region of interest for a pump. How do we do it? If we look at standard Newtonian physics we see that it follows the Lagrangian perspective:
 
-...\\[ F_sys = m_sys a_sys \\]
+\\[ F_{sys} = m_{sys}\a_{sys} \\]
 
-...but
+... but
 
-...\\[F_CV =\= m_CV a_CV \\]
+\\[F_{CV} =\= m_{CV}\a_{CV} \\]
 
 Reynold's Transport Theorem allows us to relate these two perspectives.
 
@@ -25,22 +25,22 @@ Reynold's Transport Theorem allows us to relate these two perspectives.
 
 Lets start by describing the system's properties:
 
-..*Let B be any extensive property like mass, momentum, volume, energy, etc
+* Let B be any extensive property like mass, momentum, volume, energy, etc
 
-..*Let b be the intensive version of the extensive property where:
-...\\[ b = frac{B}{m} \\]
+* Let b be the intensive version of the extensive property where:
+\\[ b = \frac{B}{m} \\]
 
 An important relationship between extensive and intensive properties is:
 
-...\\[ B = \int{rho b d\tilde{V}} \\]
+\\[ B = \int{\rho\b\d\tilde{V}} \\]
 
 (The V with a tilde here is the volume not velocity)
 
 It is very easy to shwo why this relationship is true by using dimensional analysis:
 
-...\\[ B = \int{(frac{kg}{m^3}) (frac{B}{kg}) d\tilde{V}} \\]
-...\\[ B = \int{(frac{B}{m^3})d\tilde{V}} \\]
-...\\[ B = (frac{B}{m^3})(m^3) \\]
-...\\[ B = B \\]
+\\[ B = \int{(\frac{kg}{m^3})\(\frac{B}{kg})\d\tilde{V}} \\]
+\\[ B = \int{(\frac{B}{m^3})\d\tilde{V}} \\]
+\\[ B = (\frac{B}{m^3})\(m^3) \\]
+\\[ B = B \\]
 
 ---
