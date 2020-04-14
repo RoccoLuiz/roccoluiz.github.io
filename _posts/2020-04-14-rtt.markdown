@@ -6,18 +6,21 @@ title: Reynold's Transport Theorem
 Reynold's Transport Theorem is an interesting theorem used in thermodynamics, fluid dynamics and other similar fields to relate the dynamic viewpoints of Lagrange and Euler. The viewpoints are essentially:
 
 * Lagrange:
-......The Lagrangian perspective focuses on following and describing the behaviours of discrete packets of mass. These packets are called the 'system' and they are allowed to change shape and size.
 
-..* Euler:
+...The Lagrangian perspective focuses on following and describing the behaviours of discrete packets of mass. These packets 
+are called the 'system' and they are allowed to change shape and size.
+
+* Euler:
+
 ...The Eulerian perspective focuses on a very specific region of interest. We call the volume within the region of interest the 'control volume' or 'CV' and the boundary of the volume the 'control surface' or 'CS'. This viewpoint is very useful in engineering. For example, if we're interested in the behaviour of a pump, we want to focus on the pump itself not the fluid within the pump.
 
 So, now we have a descriptive problem. Say we want to describe a region of interest for a pump. How do we do it? If we look at standard Newtonian physics we see that it follows the Lagrangian perspective:
 
-\\[ F_{sys} = m_{sys}\a_{sys} \\]
+\\[ F_{sys} = m_{sys} \ a_{sys} \\]
 
-... but
+but
 
-\\[F_{CV} =\= m_{CV}\a_{CV} \\]
+\\[F_{CV} \neq m_{CV} \ a_{CV} \\]
 
 Reynold's Transport Theorem allows us to relate these two perspectives.
 
