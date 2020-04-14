@@ -1,16 +1,16 @@
 site: Rocco Luiz
-url: #yoururl
-title: 
-description: 
+url: roccoluiz.github.io
+title: Rocco Luiz
+description: My research diary
 twitter:
-  username: #yourusername
+  username: 
   card: summary
   creator: #yourusername
 author:
-  twitter: #yourusername
-  name: #yourusername
+  twitter: RoccoGLuiz
+  name: Rocco Luiz
   avatar:
-  email: #youremail
+  email: rocco.luiz@gmail.com
   url: #yoururl
 permalink: pretty
 
