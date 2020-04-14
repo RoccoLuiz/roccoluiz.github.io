@@ -7,12 +7,12 @@ Reynold's Transport Theorem is an interesting theorem used in thermodynamics, fl
 
 * Lagrange:
 
-...The Lagrangian perspective focuses on following and describing the behaviours of discrete packets of mass. These packets 
+The Lagrangian perspective focuses on following and describing the behaviours of discrete packets of mass. These packets 
 are called the 'system' and they are allowed to change shape and size.
 
 * Euler:
 
-...The Eulerian perspective focuses on a very specific region of interest. We call the volume within the region of interest the 'control volume' or 'CV' and the boundary of the volume the 'control surface' or 'CS'. This viewpoint is very useful in engineering. For example, if we're interested in the behaviour of a pump, we want to focus on the pump itself not the fluid within the pump.
+The Eulerian perspective focuses on a very specific region of interest. We call the volume within the region of interest the 'control volume' or 'CV' and the boundary of the volume the 'control surface' or 'CS'. This viewpoint is very useful in engineering. For example, if we're interested in the behaviour of a pump, we want to focus on the pump itself not the fluid within the pump.
 
 So, now we have a descriptive problem. Say we want to describe a region of interest for a pump. How do we do it? If we look at standard Newtonian physics we see that it follows the Lagrangian perspective:
 
@@ -35,15 +35,15 @@ Lets start by describing the system's properties:
 
 An important relationship between extensive and intensive properties is:
 
-\\[ B = \int{\rho\b\d\tilde{V}} \\]
+\\[ B = \int{\rho \ b \ d\ltilde{V}} \\]
 
 (The V with a tilde here is the volume not velocity)
 
 It is very easy to shwo why this relationship is true by using dimensional analysis:
 
-\\[ B = \int{(\frac{kg}{m^3})\(\frac{B}{kg})\d\tilde{V}} \\]
-\\[ B = \int{(\frac{B}{m^3})\d\tilde{V}} \\]
-\\[ B = (\frac{B}{m^3})\(m^3) \\]
+\\[ B = \int{(\frac{kg}{m^3}) \ (\frac{B}{kg}) \ d\tilde{V}} \\]
+\\[ B = \int{(\frac{B}{m^3}) \ d\tilde{V}} \\]
+\\[ B = (\frac{B}{m^3}) \ (m^3) \\]
 \\[ B = B \\]
 
 ---
