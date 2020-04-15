@@ -25,6 +25,6 @@ So, the elements of a \\( \sigma \\)-Algebra are called Measurable Sets. If we n
 
 Usually a nice way to understand abstract algebra is a nice example:
 
-Let \\( X = \\{ a, b, c, d\\} \\), then one possible \\( \sigma \\)-Algebra could be: \\( \Sigma = \\{\emptyset, \{a, b\}, \{c, d\}, \{a, b, c, d\}\\} \\) or the \\( \sigma \\)-Algebra could be as large as possible ie: equal the Power Set: \\( \Sigma = \mathcal{P}(X) \\) or it could be as small as possible: \\( \Sigma = \\{X, \emptyset\\} \\).
+Let \\( X = \\{ a, b, c, d\\} \\), then one possible \\( \sigma \\)-Algebra could be: \\( \Sigma = \\{\emptyset, \\{a, b\\}, \\{c, d\\}, \\{a, b, c, d\\}\\} \\) or the \\( \sigma \\)-Algebra could be as large as possible ie: equal the Power Set: \\( \Sigma = \mathcal{P}(X) \\) or it could be as small as possible: \\( \Sigma = \\{X, \emptyset\\} \\).
 
 Then in all these cases, whichever you choose, the measurable space would be: \\( (X, \Sigma ) \\).
