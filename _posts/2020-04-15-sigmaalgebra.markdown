@@ -13,7 +13,7 @@ Let \\( X \\) be some set and let \\( \mathcal{P}(X) \\) represent its Power Set
 * \\( \Sigma \\) is closed under complementation ie: If \\( A \\) is in \\( \Sigma \\) then so is its complement \\( X \setminus A \\)
 * \\( \Sigma \\) is closed under countable unions ie: If \\( A_1 \\), \\( A_2 \\), \\( A_3 \\), . . . are in \\( \Sigma \\) then so is \\( A_1 \cup A_2 \cup A_3 \cup \\) . . .
 
-From these properties it is pretty obvious to see that the smallest possible \\( \sigma \\)-Algebra set is: \\( \{X, \emptyset\} \\) whilst the largest possible set is the Power Set of \\( X \\): \\( \mathcal{P}(X) \\).
+From these properties it is pretty obvious to see that the smallest possible \\( \sigma \\)-Algebra set is: \\( \\{X, \emptyset\\} \\) whilst the largest possible set is the Power Set of \\( X \\): \\( \mathcal{P}(X) \\).
 
 ---
 
@@ -25,6 +25,6 @@ So, the elements of a \\( \sigma \\)-Algebra are called Measurable Sets. If we n
 
 Usually a nice way to understand abstract algebra is a nice example:
 
-Let \\( X = { a, b, c, d} \\), then one possible \\( \sigma \\)-Algebra could be: \\( \Sigma = {\emptyset, \{a, b\}, \{c, d\}, \{a, b, c, d\}} \\) or the \\( \sigma \\)-Algebra could be as large as possible ie: equal the Power Set: \\( \Sigma = \mathcal{P}(X) \\) or it could be as small as possible: \\( \Sigma = {X, \emptyset} \\).
+Let \\( X = \\{ a, b, c, d\\} \\), then one possible \\( \sigma \\)-Algebra could be: \\( \Sigma = \\{\emptyset, \{a, b\}, \{c, d\}, \{a, b, c, d\}\\} \\) or the \\( \sigma \\)-Algebra could be as large as possible ie: equal the Power Set: \\( \Sigma = \mathcal{P}(X) \\) or it could be as small as possible: \\( \Sigma = \\{X, \emptyset\\} \\).
 
 Then in all these cases, whichever you choose, the measurable space would be: \\( (X, \Sigma ) \\).
