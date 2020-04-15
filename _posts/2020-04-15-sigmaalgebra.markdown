@@ -7,10 +7,10 @@ Sigma Algebras denoted: \\( \sigma \\)-Algebras are special kinds of sets used p
 
 The technical definition is:
 
-Let \\( X \\) be some set and let \\( \mathcal{P}(X) \\) represent its Power Set. Then a certain subset \\( \Sigma \subseteq \mathcal{P}(X) \\) is called a \\( \sigma-Algebra \\) if it satisfies the following properties:
+Let \\( X \\) be some set and let \\( \mathcal{P}(X) \\) represent its Power Set. Then a certain subset \\( \Sigma \subseteq \mathcal{P}(X) \\) is called a \\( \sigma \\)-Algebra if it satisfies the following properties:
 
-* \\( X \\) is in \\( \Sigma \\) and \\( X \\) is the universal sets (set containing everything we care about)
-* \\( \Sigma \\) is closed under complementation ie: If \\( A \\) is in \\( \Sigma \\) then so is its compllement
+* \\( X \\) is in \\( \Sigma \\) and \\( X \\) is the universal set (set containing everything we care about)
+* \\( \Sigma \\) is closed under complementation ie: If \\( A \\) is in \\( \Sigma \\) then so is its complement \\( X\A \\)
 * \\( \Sigma \\) is closed under countable unionis ie: If \\( A_1 \\), \\( A_2 \\), \\( A_3 \\), . . . are in \\( \Sigma \\) then so is \\( A_1 \cup A_2 \cup A_3 \cup \\) . . .
 
 From these properties it is pretty obvious to see that the smallest possible \\( \sigma \\)-Algebra set is: \\( \{X, \emptyset\} \\) whilst the largest possible set is: \\( 2^X \\) which is the Power Set of \\( X \\): \\( \mathcal{P}(X) \\).
