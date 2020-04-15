@@ -13,6 +13,8 @@ A function \\( f : X \rightarrow Y \\) is said to be measurable if for every \\(
 
 \\[ f^{-1} = \\{ x \in X | f(x) \in E \\} \in \Sigma , \forall E \in T \\]
 
+\\[ f^{-1} \\]
+
 ---
 
 The definition is defined like this because there is a structural definition that says: 
