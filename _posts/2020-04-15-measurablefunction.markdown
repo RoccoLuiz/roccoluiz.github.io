@@ -11,9 +11,9 @@ Let \\( (X, \Sigma) \\) and \\( (Y, T) \\) be two measurable spaces.
 
 A function \\( f : X \rightarrow Y \\) is said to be measurable if for every \\( E \in T \\) the pre-image of \\( E \\) under \\( f \\) is in \\( \Sigma \\):
 
-\\[ f^{-1} = \\{ x \in X \middle f(x) \in E \\} \in \Sigma , \forall E \in T \\]
+\\[ f^{-1} = \\{ x \in X \mid f(x) \in E \\} \in \Sigma , \forall E \in T \\]
 
-\\[ f^{-1} = \\{x \in X | \\} \\]
+\\[ f^{-1} = \\{ x \in X \| f(x) \in E \\} \in \Sigma , \forall E \in T \\]
 
 ---
 
