@@ -29,7 +29,7 @@ Now that I have these cross-sections I can then define the axes and denote the s
 
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/crosssectionswithvectors.png">
 
-Notice the vector naming conventions. Take \\( \vec{P_{xz}} \\) for example. The first subscript, \\( x \\) denotes the axis that is perpendicular to the face of the cross-section whilst the second subscript denotes the direction of the vector itself. Also, in this case, these are force vectors where the force is per unit area of the cross-section.
+Notice the vector naming conventions. Take \\( \vec{P_{xz}} \\) for example. The first subscript, \\( x \\) denotes the axis that is perpendicular to the face of the cross-section whilst the second subscript, \\( z \\) denotes the direction of the vector itself. Also, in this case, these are force vectors where the force is per unit area of the cross-section.
 
 Now that we have all these stress forces we can write them together in the thing called a tensor:
 
