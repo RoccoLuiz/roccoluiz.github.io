@@ -57,7 +57,7 @@ Some definitions:
 
 If we return to the scalar, it has 0 basis vectors per component and hence is a tensor of rank 0 with \\( 3^{0} = 1 \\) components. The vector has 1 basis vector per component making it a tensor of rank 1 with \\( 3^{1} = 3 \\) components. For the stresses on the solid, it has 2 basis vectors per component making it a tensor of rank 2 with \\( 3^{2} = 9 \\) components. 
 
-An important note on rank 2 tensors: They are not matrices! 
+An important note on rank 2 tensors: They are not matrices! \\\
 They are written like matrices but the difference lies in the fact that a matrix is just an array of numbers, a tensor is a separate object which requires detailed specification of the co-ordinate system and is also invariant under such a co-ordinate transform.
 
 ---
