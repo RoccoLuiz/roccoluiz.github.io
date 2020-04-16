@@ -8,10 +8,10 @@ title: Tensor Calculus
 What is a tensor? To understand what a tensor is, lets start with some basics. 
 
 * Scalars:
-Scalars are simply numbers that denote a magnitude of something, they therefore only have a single component (the number). Because scalars don't have a direction they have, by definition, no basis vectors.
+    Scalars are simply numbers that denote a magnitude of something, they therefore only have a single component (the number). Because scalars don't have a direction they have, by definition, no basis vectors.
 
 * Vectors:
-Vectors are defined to be scalars with a direction. Therefore they are written with a magnitude like so: \\( \Vert{\vec{a}}\vert = 22.5 km \\) and the direction is specified like: \\( \vec{a} \\) in the direction of \\( \vec{AB} \\). But if we're working in three dimensions we can break up the vector like so:
+    Vectors are defined to be scalars with a direction. Therefore a displacement vector for example will be written with a magnitude like so: \\( \Vert{\vec{a}}\vert = 22.5 km \\) and the direction is specified like: \\( \vec{a} \\) in the direction of \\( \vec{AB} \\). But if we're working in three dimensions we can break up the vector like so:
 
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/3dvector.png">
 
@@ -31,7 +31,7 @@ Now that I have these cross-sections I can then define the axes and denote the s
 
 Notice the vector naming conventions. Take \\( \vec{P_{xz}} \\) for example. The first subscript, \\( x \\) denotes the axis that is perpendicular to the face of the cross-section whilst the second subscript, \\( z \\) denotes the direction of the vector itself. Also, in this case, these are force vectors where the force is per unit area of the cross-section.
 
-Now that we have all these stress forces we can write them together in the thing called a tensor:
+Now that we have all these stress components we can write them together in this thing called a tensor:
 
 \\[ \mathbf{P} = 
     \begin{bmatrix}
@@ -40,3 +40,34 @@ Now that we have all these stress forces we can write them together in the thing
     \vec{P_{zx}} & \vec{P_{zy}} & \vec{P_{zz}}\\\
     \end{bmatrix}
 \\]
+
+An interesting question to have is: why do we need a matrix of forces? Why can't we just add up the forces \\( \vec{P_{xx}} \\), \\( \vec{P_{yx}} \\) and \\( \vec{P_{zx}} \\) into a single component since they're in the same direction? The answer to this is that, yes the forces are all in the same direction but they actually have different effects upon the solid. If \\( \vec{P_{xx}} \\) is a positive force the solid will experience a tension (pulling) force per unit area but if \\( \vec{P_{yx}} \\) is positive the solid will experience a shearing force per unit area. These forces have different deformation effects on a solid.
+
+Now, analysing \\( \mathbf{P} \\) we see that it has 9 separate components each with a magnitude and two basis vectors (one specifies the cross-sectional area and the other specifies the direction of the force).
+
+A pretty cool relationship actually exists between scalars, vectors and tensors. They're all actually the same thing, tensors.
+
+Some definitions:
+
+* A tensor: 
+    In an \\( m \\)-dimensional space, a tensor of rank \\( n \\) is a mathematical object that has \\( n \\) indices, \\(m^{n} \\) components, and obeys certain transformation rules. (In 3D space, the dimension, m, equals three).
+
+* Rank of a tensor:
+    The rank of a tensor is the number of basis vectors needed to fully specify a single component of the tensor.
+
+If we return to the scalar, it has 0 basis vectors per component and hence is a tensor of rank 0 with \\( 3^{0} = 1 \\) components. The vector has 1 basis vector per component making it a tensor of rank 1 with \\( 3^{1} = 3 \\) components. For the stresses on the solid, it has 2 basis vectors per component making it a tensor of rank 2 with \\( 3^{2} = 9 \\) components. 
+
+An important note on rank 2 tensors: They are not matrices! 
+They are written like matrices but the difference lies in the fact that a matrix is just an array of numbers, a tensor is a separate object which requires detailed specification of the co-ordinate system and is also invariant under such a co-ordinate transform.
+
+---
+
+# Transformation Rules
+
+There are two ways to define the transformation rules of a tensor. The first, preferred by physicists is:
+    1) A Tensor is an object that transforms like a tensor.
+Not very nice nor helpful. The other way is:
+    2) A tensor is an object that is invariant (doesn't change) under a change of co-ordinate systems, with components that change according to a special set of mathematical formulae.
+What are the formulae? Unfortunately more stuff is needed before we can understand them.
+
+---
