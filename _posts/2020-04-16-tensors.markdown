@@ -65,9 +65,13 @@ They are written like matrices but the difference lies in the fact that a matrix
 # Transformation Rules
 
 There are two ways to define the transformation rules of a tensor. The first, preferred by physicists is:
-    1) A Tensor is an object that transforms like a tensor.
+
+1) A Tensor is an object that transforms like a tensor.
+
 Not very nice nor helpful. The other way is:
-    2) A tensor is an object that is invariant (doesn't change) under a change of co-ordinate systems, with components that change according to a special set of mathematical formulae.
+
+2) A tensor is an object that is invariant (doesn't change) under a change of co-ordinate systems, with components that change according to a special set of mathematical formulae.
+
 What are the formulae? Unfortunately more stuff is needed before we can understand them.
 
 ---
