@@ -11,7 +11,7 @@ What is a tensor? To understand what a tensor is, lets start with some basics.
 Scalars are simply numbers that denote a magnitude of something, they therefore only have a single component (the number). Because scalars don't have a direction they have, by definition, no basis vectors.
 
 * Vectors:
-Vectors are defined to be scalars with a direction. Therefore they are written with a magnitude like so: \\( \Vert{\vec{a}} = 22.5 km \\) and the direction is specified like: \\( \vec{a} in the direction of \vec{AB} \\). But if we're working in three dimensions we can break up the vector like so:
+Vectors are defined to be scalars with a direction. Therefore they are written with a magnitude like so: \\( \Vert{\vec{a}}\vert = 22.5 km \\) and the direction is specified like: \\( \vec{a} \\) in the direction of \\( \vec{AB} \\). But if we're working in three dimensions we can break up the vector like so:
 
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/3dvector.png">
 
@@ -35,8 +35,8 @@ Now that we have all these stress forces we can write them together in the thing
 
 \\[ \mathbf{P} = 
     \begin{bmatrix}
-    \vec{P_{xx}} & \vec{P_{xy}} & \vec{P_{xz}} //
-    \vec{P_{yx}} & \vec{P_{yy}} & \vec{P_{yz}} //
-    \vec{P_{zx}} & \vec{P_{zy}} & \vec{P_{zz}} //
+    \vec{P_{xx}} & \vec{P_{xy}} & \vec{P_{xz}}
+    \vec{P_{yx}} & \vec{P_{yy}} & \vec{P_{yz}}
+    \vec{P_{zx}} & \vec{P_{zy}} & \vec{P_{zz}}
     \end{bmatrix}
 \\]
