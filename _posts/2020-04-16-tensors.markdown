@@ -35,8 +35,8 @@ Now that we have all these stress forces we can write them together in the thing
 
 \\[ \mathbf{P} = 
     \begin{bmatrix}
-    \vec{P_{xx}} & \vec{P_{xy}} & \vec{P_{xz}}
-    \vec{P_{yx}} & \vec{P_{yy}} & \vec{P_{yz}}
-    \vec{P_{zx}} & \vec{P_{zy}} & \vec{P_{zz}}
+    \vec{P_{xx}} & \vec{P_{xy}} & \vec{P_{xz}}\\
+    \vec{P_{yx}} & \vec{P_{yy}} & \vec{P_{yz}}\\
+    \vec{P_{zx}} & \vec{P_{zy}} & \vec{P_{zz}}\\
     \end{bmatrix}
 \\]
