@@ -8,14 +8,14 @@ title: Tensor Calculus
 What is a tensor? To understand what a tensor is, lets start with some basics. 
 
 * Scalars:
-... Scalars are simply numbers that denote a magnitude of something, they therefore only have a single component (the number). Because scalars don't have a direction they have, by definition, no basis vectors.
+Scalars are simply numbers that denote a magnitude of something, they therefore only have a single component (the number). Because scalars don't have a direction they have, by definition, no basis vectors.
 
 * Vectors:
-... Vectors are defined to be scalars with a direction. Therefore they are written with a magnitude like so: \\( \Vert{\vec{a}} = 22.5 km \\) and the direction is specified like: \\( \vec{a} in the direction of \vec{AB} \\). But if we're working in three dimensions we can break up the vector like so:
+Vectors are defined to be scalars with a direction. Therefore they are written with a magnitude like so: \\( \Vert{\vec{a}} = 22.5 km \\) and the direction is specified like: \\( \vec{a} in the direction of \vec{AB} \\). But if we're working in three dimensions we can break up the vector like so:
 
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/3dvector.png">
 
-... The vector now has three components and three basis vectors which we write like so: \\( \vec{a} = -19 \hat{i} + 12 \hat{j} + 0.45 \hat{k} \\).
+The vector now has three components and three basis vectors which we write like so: \\( \vec{a} = -19 \hat{i} + 12 \hat{j} + 0.45 \hat{k} \\).
 
 Now we can begin to describe what a tensor is. Lets say that I have a solid with a point within it:
 
