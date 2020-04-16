@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tensor Calculus
+title: Tensor
 ---
 
 # Introduction to tensors
