@@ -1,0 +1,42 @@
+---
+layout: post
+title: Tensor Calculus
+---
+
+# Introduction to tensors
+
+What is a tensor? To understand what a tensor is, lets start with some basics. 
+
+* Scalars:
+... Scalars are simply numbers that denote a magnitude of something, they therefore only have a single component (the number). Because scalars don't have a direction they have, by definition, no basis vectors.
+
+* Vectors:
+... Vectors are defined to be scalars with a direction. Therefore they are written with a magnitude like so: \\( \Vert{\vec{a}} = 22.5 km \\) and the direction is specified like: \\( \vec{a} in the direction of \vec{AB} \\). But if we're working in three dimensions we can break up the vector like so:
+
+<img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/3dvector.png">
+
+... The vector now has three components and three basis vectors which we write like so: \\( \vec{a} = -19 \hat{i} + 12 \hat{j} + 0.45 \hat{k} \\).
+
+Now we can begin to describe what a tensor is. Lets say that I have a solid with a point within it:
+
+<img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/pointinsolid.png">
+
+If I want to specify all the stresses acting on the point how would I do it? The easiest thing to do would be to take cross-sections of the solid across the three axes through the point:
+
+<img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/crosssections.png">
+
+Now that I have these cross-sections I can then define the axes and denote the stress vectors acting on each point on the three cross-sections:
+
+<img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/crosssectionswithvectors.png">
+
+Notice the vector naming conventions. Take \\( \vec{P_{xz}} \\) for example. The first subscript, \\( x \\) denotes the axis that is perpendicular to the face of the cross-section whilst the second subscript denotes the direction of the vector itself. Also, in this case, these are force vectors where the force is per unit area of the cross-section.
+
+Now that we have all these stress forces we can write them together in the thing called a tensor:
+
+\\[ \mathbf{P} = 
+    \begin{bmatrix}
+    \vec{P_{xx}} & \vec{P_{xy}} & \vec{P_{xz}} //
+    \vec{P_{yx}} & \vec{P_{yy}} & \vec{P_{yz}} //
+    \vec{P_{zx}} & \vec{P_{zy}} & \vec{P_{zz}} //
+    \end{bmatrix}
+\\]
