@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tensor
+title: Tensors
 ---
 
 # Introduction to tensors
