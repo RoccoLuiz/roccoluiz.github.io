@@ -130,7 +130,7 @@ If the flow is perpendicular to the normal vector (or parallel to the surface) w
 
 If the flow is at an angle \\( \theta \\) to the normal vector:
 
-\\[ \hat{n} \cdot \vec{V} = \Vert\hat{n}\Vert \Vert\vec{V}\Vert \cos \theta \\]
+\\[ \hat{n} \cdot \vec{V} = \vert\hat{n}\vert \vert\vec{V}\vert \cos \theta \\]
 
 So, by using the dot product we only need to use one equation for the inlets and outlets across the area of the whole surface:
 
