@@ -35,7 +35,7 @@ Now that we have all these stress components we can write them together in this 
 
 \\[ \mathbf{P} = 
     \begin{bmatrix}
-    \P_{xx} & P_{xy} & P_{xz}\\\
+    P_{xx} & P_{xy} & P_{xz}\\\
     P_{yx} & P_{yy} & P_{yz}\\\
     P_{zx} & P_{zy} & P_{zz}\\\
     \end{bmatrix}
