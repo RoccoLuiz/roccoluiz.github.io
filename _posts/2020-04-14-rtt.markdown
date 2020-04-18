@@ -59,13 +59,13 @@ If we increment the time t by some small dt:
 
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/initsepcvandsys.png">
 
-In this diagram we see that the system (dashed) has moved out of the control volume and has changed shape (expanded) whilst the control volume and control surface (red) has maintained a fixed value.
+In this diagram we see that the system (dashed) has moved out of the control volume and has changed shape (expanded) whilst the control volume and control surface (red) has maintained a fixed position.
 
 Looking at the previous picture we notice two special zones which we label:
 
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/sepcvandsys.png">
 
-I is a region of volume within the control volume which is being replaced by an extensive property that is not part of the system. Whilst II is a region of the system that is no longer within the control volume.
+\\( I \\) is a region of volume within the control volume which is being replaced by an extensive property that is not part of the system. Whilst \\( II \\) is a region of the system that is no longer within the control volume.
 
 From these diagrams we can now write some simple descriptive equations:
 
