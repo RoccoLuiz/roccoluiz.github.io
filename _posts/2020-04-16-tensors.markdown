@@ -11,7 +11,7 @@ What is a tensor? To understand what a tensor is, lets start with some basics.
     Scalars are simply numbers that denote a magnitude of something, they therefore only have a single component (the number). Because scalars don't have a direction they have, by definition, no basis vectors.
 
 * Vectors:
-    Vectors are defined to be scalars with a direction. Therefore a displacement vector for example will be written with a magnitude like so: \\( \Vert{\vec{a}}\vert = 22.5 km \\) and the direction is specified like: \\( \vec{a} \\) in the direction of \\( \vec{AB} \\). But if we're working in three dimensions we can break up the vector like so:
+    Vectors are defined to be scalars with a direction. Therefore a displacement vector for example will be written with a magnitude like so: \\( \Vert{\vec{a}}\Vert = 22.5 km \\) and the direction is specified like: \\( \vec{a} \\) in the direction of \\( \lvec{AB} \\). But if we're working in three dimensions we can break up the vector like so:
 
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/3dvector.png">
 
