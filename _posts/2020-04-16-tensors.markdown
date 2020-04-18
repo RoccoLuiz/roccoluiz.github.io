@@ -29,19 +29,19 @@ Now that I have these cross-sections I can then define the axes and denote the s
 
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/crosssectionswithvectors.png">
 
-Notice the vector naming conventions. Take \\( \vec{P_{xz}} \\) for example. The first subscript, \\( x \\) denotes the axis that is perpendicular to the face of the cross-section whilst the second subscript, \\( z \\) denotes the direction of the vector itself. Also, in this case, these are force vectors where the force is per unit area of the cross-section.
+Notice the vector naming conventions. Take \\( P_{xz} \\) for example. The first subscript, \\( x \\) denotes the axis that is perpendicular to the face of the cross-section whilst the second subscript, \\( z \\) denotes the direction of the vector itself. Also, in this case, these are force vectors where the force is per unit area of the cross-section.
 
 Now that we have all these stress components we can write them together in this thing called a tensor:
 
 \\[ \mathbf{P} = 
     \begin{bmatrix}
-    \vec{P_{xx}} & \vec{P_{xy}} & \vec{P_{xz}}\\\
-    \vec{P_{yx}} & \vec{P_{yy}} & \vec{P_{yz}}\\\
-    \vec{P_{zx}} & \vec{P_{zy}} & \vec{P_{zz}}\\\
+    \P_{xx} & P_{xy} & P_{xz}\\\
+    P_{yx} & P_{yy} & P_{yz}\\\
+    P_{zx} & P_{zy} & P_{zz}\\\
     \end{bmatrix}
 \\]
 
-An interesting question to have is: why do we need a matrix of forces? Why can't we just add up the forces \\( \vec{P_{xx}} \\), \\( \vec{P_{yx}} \\) and \\( \vec{P_{zx}} \\) into a single component since they're in the same direction? The answer to this is that, yes the forces are all in the same direction but they actually have different effects upon the solid. If \\( \vec{P_{xx}} \\) is a positive force the solid will experience a tension (pulling) force per unit area but if \\( \vec{P_{yx}} \\) is positive the solid will experience a shearing force per unit area. These forces have different deformation effects on a solid.
+An interesting question to have is: why do we need a matrix of forces? Why can't we just add up the forces \\( P_{xx} \\), \\( P_{yx} \\) and \\( P_{zx} \\) into a single component since they're in the same direction? The answer to this is that, yes the forces are all in the same direction but they actually have different effects upon the solid. If \\( P_{xx} \\) is a positive force the solid will experience a tension (pulling) force per unit area but if \\( P_{yx} \\) is positive the solid will experience a shearing force per unit area. These forces have different deformation effects on a solid.
 
 Now, analysing \\( \mathbf{P} \\) we see that it has 9 separate components each with a magnitude and two basis vectors (one specifies the cross-sectional area and the other specifies the direction of the force).
 
