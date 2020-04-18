@@ -114,7 +114,7 @@ Let there be a curved control surface on which there is a small region of area d
 
 <img src="https://github.com/RoccoLuiz/roccoluiz.github.io/raw/master/images/vectorsonplane.png">
 
-Looking at this image we have two vectors. Vector n is the surface normal (perpendicular) vector with magnitude one whilst V is the velocity vector. Why create a surface like this? This surface type and vectors will allow us to define the extensive inflow and outflow functions. How? By using the dot product. The dot product will easily allow us to define the direction of the flow. 
+Looking at this image we have two vectors. Vector \\( \hat{n} \\) is the surface normal (perpendicular) vector with magnitude one whilst \\( \vec{V} \\) is the velocity (flow) vector. Why create a surface like this? This surface type and vectors will allow us to define the extensive inflow and outflow functions. How? By using the dot product. The dot product will easily allow us to define the direction of the flow. 
 
 If the flow is parallel to the normal vector (or perpendicular to the surface) and in the same direction we see:
 
@@ -127,6 +127,10 @@ If the flow is parallel to the normal vector (or perpendicular to the surface) b
 If the flow is perpendicular to the normal vector (or parallel to the surface) we see:
 
 \\[ \hat{n} \cdot \vec{V} = 0 \\]
+
+If the flow is at an angle \\( \theta \\) to the normal vector:
+
+\\[ \hat{n} \cdot \vec{V} = \Vert\hat{n}\Vert \Vert\vec{V}\Vert \cos \theta \\]
 
 So, by using the dot product we only need to use one equation for the inlets and outlets across the area of the whole surface:
 
