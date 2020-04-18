@@ -91,9 +91,11 @@ Taking the limit of dt to zero then gives:
 
 \\[ \frac{dB_{sys}}{dt} = \frac{\partial{B_{CV}}}{\partial{t}} - \frac{dB_{I}}{dt} + \frac{dB_{II}}{dt} \\]
 
-If we let I be the inflow region and let II be the outflow region and use time-derivative dot notation (Newton's notation) we can rewrite the previous equation as:
+If we let \\( I \\) be the inflow region and let \\( II \\) be the outflow region and use time-derivative dot notation we can rewrite the previous equation as:
 
 \\[ \frac{dB_{sys}}{dt} = \frac{\partial{B_{CV}}}{\partial{t}} - \dot{B_{in}} + \dot{B_{out}} \\]
+
+Notice the different derivative notation for the system and the control volume. In this example, the only reason we use different notation is to highlight the differences between the two implications. But the different notations become very important in the rigorous definition.
 
 ---
 
