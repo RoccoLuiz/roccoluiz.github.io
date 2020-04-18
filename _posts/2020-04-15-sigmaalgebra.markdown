@@ -17,7 +17,7 @@ From these properties it is pretty obvious to see that the smallest possible \\(
 
 ---
 
-Note that I said that \\( \sigma \\)-Algebras are used in measure theory. They are used to define something called Measurable Space.
+Note that I said that \\( \sigma \\)-Algebras are used in measure theory. They are used to define something called Measurable Space (and many other things).
 
 So, the elements of a \\( \sigma \\)-Algebra are called Measurable Sets. If we now take an ordered pair (order is important): \\( (X, \Sigma) \\) where \\( X \\) is a set and \\( \Sigma \\) is a \\( \sigma \\)-Algebra over \\( X \\), we now have the thing known as a Measurable Space. 
 
